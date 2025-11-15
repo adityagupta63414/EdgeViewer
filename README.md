@@ -72,31 +72,31 @@ Simple DOM UI
 Built with TypeScript + minimal HTML/CSS
 
 ## 📁 Project Structure
-EdgeViewer/
-│
-├── app/
-│   ├── src/main/
-│   │   ├── java/com/example/edgeviewer/
-│   │   │     ├── MainActivity.kt
-│   │   │     ├── GLRenderer.kt
-│   │   │     ├── NativeBridge.kt
-│   │   │
-│   │   ├── cpp/
-│   │   │     ├── native-lib.cpp      (OpenCV processing)
-│   │   │     ├── CMakeLists.txt
-│   │   │
-│   │   ├── res/layout/activity_main.xml
-│   │   ├── res/values/*.xml
-│   │   ├── AndroidManifest.xml
-│   │
-│   └── jniLibs/  (OpenCV .so files)
-│
-└── web/
-    ├── index.html
-    ├── script.ts
-    ├── script.js
-    ├── processed_frame.png (copied from device)
-    └── sample_frame_base64.txt (copied from device)
+    EdgeViewer/
+       ├── app/
+           ├── src/main/
+              ├── java/comexampleedgeviewer/
+                        ├── MainActivity.kt
+                        ├── GLRenderer.kt
+                        ├── NativeBridge.kt
+             ├── cpp/
+                 ├── native-lib.cpp      (OpenCV processing)
+                 ├── CMakeLists.txt
+             ├── res/
+                  layout/
+                     ├──activity_main.xml
+             ├── AndroidManifest.xml
+             ├── jniLibs/  (OpenCV .so files)
+                      ├── arm64-v8a/
+                      ├── armeabi-v7a/
+                      ├── x86/
+                      └── x86_64/
+      ├── web/
+         ├── index.html
+         ├── script.ts
+         ├── script.js
+         ├── processed_frame.png (copied from device)
+         └── sample_frame_base64.txt (copied from device)
 
 ## 📸 Screenshots
 
@@ -265,3 +265,7 @@ Submit:
 GitHub Repository Link
 Web Viewer Files
 Screenshots/GIFs
+
+
+
+
