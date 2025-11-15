@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.EdgeViewer" parent="Theme.MaterialComponents.Bridge">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
+</resources>

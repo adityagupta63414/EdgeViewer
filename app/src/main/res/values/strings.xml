@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EdgeViewer</string>
+    <string name="fps_default">FPS: 0</string>
+    <string name="toggle_edge">Toggle Edge</string>
+</resources>

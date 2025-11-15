@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "none",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "main.ts"
+  ]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Edge Detection Web Viewer</title>
+    <style>
+        body {
+            background: #111;
+            color: #eee;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+        img {
+            border: 3px solid #444;
+            margin-top: 20px;
+            max-width: 95%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Processed Frame Viewer</h1>
+
+<p>This image was processed in Android using OpenCV (C++) and exported for web view.</p>
+
+<img id="frame" alt="Processed Frame" />
+
+<script src="dist/main.js"></script>
+
+</body>
+</html>

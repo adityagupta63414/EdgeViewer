@@ -1,0 +1,25 @@
+# Gradle
+.gradle
+/build/
+
+# Local configuration file (sdk paths, env vars)
+local.properties
+
+# Mac / Windows files
+.DS_Store
+Thumbs.db
+
+# Android Studio
+.idea/shelf
+.idea/workspace.xml
+.idea/caches
+
+# Logs
+*.log
+
+# Generated files
+captures/
+externalNativeBuild/
+
+# NDK intermediate builds
+.cxx/
